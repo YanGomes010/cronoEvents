@@ -10,7 +10,6 @@ import sair from "../../images/sair.svg"
 
 export default function MenuDashboardComponent() {
     
-
     return (
         <MenuDashboard>
             <ContainerUser>
@@ -20,8 +19,8 @@ export default function MenuDashboardComponent() {
             <Ul>
                 <ListItem rota="#" title="Inicio" imagem={icon} />
                 <ListItem rota="#" title="Contratos" imagem={contratos} />
-                <ListItem rota="#" title="Equipe" imagem={equipe} />
-                <ListItem rota="eventos" title="Eventos" imagem={eventos} />
+                <ListItem rota="equipe" title="Equipe" imagem={equipe} />
+                <ListItem rota="#" title="Eventos" imagem={eventos} />
                 <ListItem rota="#" title="Orçamento" imagem={orcamento} />
                 <Li>
                 <img src={sair} alt="icone" />
@@ -37,8 +36,7 @@ display:flex;
 align-items:center;
 Justify-content:space-between;
 width: 100%;
-
-padding: 20px 10px;
+padding: 7px 10px;
 height: 34px;
 height:100%;
 flex-shrink: 0;

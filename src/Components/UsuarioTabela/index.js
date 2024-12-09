@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export default function UsuarioTabela() {
   return (
-    <div>
+    <ContainerTable>
       <Table>
         <Thead>
           <tr>
@@ -25,27 +25,18 @@ export default function UsuarioTabela() {
             </ContainerImg>
           </Tr>
           <Tr>
-            <td>02</td>
-            <td>Nome de alguém fulano beltrano</td>
-            <td>USÚARIO</td>
+            <td>01</td>
+            <td>Yan Gomes Macêdo</td>
+            <td>ADMIN</td>
             <ContainerImg>
               <img src={editar} alt="editar" />
               <img src={lixo} alt="lixo" />
             </ContainerImg>
           </Tr>
           <Tr>
-            <td>03</td>
-            <td>Fulano beltrano da alameda</td>
-            <td>USÚARIO</td>
-            <ContainerImg>
-              <img src={editar} alt="editar" />
-              <img src={lixo} alt="lixo" />
-            </ContainerImg>
-          </Tr>
-          <Tr>
-            <td>03</td>
-            <td>Fulano beltrano da alameda</td>
-            <td>USÚARIO</td>
+            <td>01</td>
+            <td>Yan Gomes Macêdo</td>
+            <td>ADMIN</td>
             <ContainerImg>
               <img src={editar} alt="editar" />
               <img src={lixo} alt="lixo" />
@@ -53,27 +44,38 @@ export default function UsuarioTabela() {
           </Tr>
         </tbody>
       </Table>
-    </div>
+    </ContainerTable>
   );
 }
 
 const Table = styled.table`
-    width:100%;
-    max-width:1238px;
-    margin:0 auto;
-`
+  width: 100%;
+  max-width: 1238px;
+  margin: auto auto;
+
+`;
 const Thead = styled.thead`
-    background-color:#5C4033;
-    color:#FFF8E7;
-    height:25px;
-`
+  background-color: #5c4033;
+  color: #fff8e7;
+  height: 25px;
+`;
 
 const Tr = styled.tr`
-    width:100%;
-    text-align:center;
-`
+  width: 100%;
+  text-align: center;
+`;
 const ContainerImg = styled.td`
-    display:flex;
-    gap:5px;
-    justify-content:center;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+`;
+
+const ContainerTable = styled.div`
+  height: 65vh;
+  width: 75%;
+  max-width:1250px;
+  margin:30px auto;
+  display:flex;
+  justify-content:center;
+  overflow-y: auto;
 `

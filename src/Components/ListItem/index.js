@@ -12,8 +12,6 @@ export default function ListItem({ imagem, title, rota }) {
   );
 }
 
-
-
 const Li = styled.li`
   display: flex;
   width: 100%;

@@ -1,6 +1,6 @@
 import UsuarioTabela from "../../Components/UsuarioTabela";
 
-export default function Events(){
+export default function Equipe(){
     return(
         <UsuarioTabela/>
     )

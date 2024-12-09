@@ -1,7 +1,7 @@
 import {Route, Routes } from "react-router-dom";
 import LoginPage from "../Pages/LoginPage";
 import Dashboard from "../Pages/Dashboard";
-import Events from "../Pages/Events";
+import Equipe from "../Pages/Equipe";
 
 
 export default function RoutesApp(){
@@ -9,7 +9,7 @@ export default function RoutesApp(){
         <Routes>
             <Route path="/" element={<LoginPage/>}/>
             <Route path="/dashboard" element={<Dashboard/>}>
-                <Route path="/dashboard/eventos" element={<Events/>}/>
+                <Route path="/dashboard/equipe" element={<Equipe/>}/>
             </Route>
         </Routes>
     )
