@@ -50,11 +50,13 @@ const Container = styled.main`
   width: 100%;
   display: flex;
   justify-content: center;
-  height:75vh
+  height:75vh;
+  
+
   `;
 
 const Form = styled.form`
-  width: 512px;
+  width: 100%;
   height: 428px;
   max-width: 512px;
   background: #f8f9fa;
@@ -62,7 +64,8 @@ const Form = styled.form`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin:auto;
+ margin:auto 20px;
+ padding:1.5rem;
 `;
 
 const ContainerInput = styled.div`

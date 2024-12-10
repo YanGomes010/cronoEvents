@@ -20,7 +20,7 @@ export default function MenuDashboardComponent() {
                 <ListItem rota="#" title="Inicio" imagem={icon} />
                 <ListItem rota="#" title="Contratos" imagem={contratos} />
                 <ListItem rota="equipe" title="Equipe" imagem={equipe} />
-                <ListItem rota="#" title="Eventos" imagem={eventos} />
+                <ListItem rota="eventos" title="Eventos" imagem={eventos} />
                 <ListItem rota="#" title="Orçamento" imagem={orcamento} />
                 <Li>
                 <img src={sair} alt="icone" />
